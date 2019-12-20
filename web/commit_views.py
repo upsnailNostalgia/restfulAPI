@@ -1,8 +1,6 @@
 #encoding:utf-8
 
-from flask import jsonify, request, Flask
-from flask_cors import CORS
-
+from flask import jsonify, request
 from db.model import CommitModel
 from forms.commit_form import CommitForm, CheckoutForm, CheckoutMasterForm, CommitIdForm, DiffForm
 from libs.error import OperationError
@@ -31,8 +29,8 @@ def get_commit():
         per_page = form.per_page.data
         is_whole = form.is_whole.data
         developer = form.developer.data
-        start_time = form.start_time
-        end_time = form.end_time
+        start_time = form.start_time.data
+        end_time = form.end_time.data
         try:
             session = db_connect(DB)
             if developer is '':
@@ -62,7 +60,8 @@ def get_commit():
                 data.append(dic)
                 del dic
             session.close()
-        except:
+        except Exception as e:
+            print(e)
             return not_found()
         else:
             return jsonify(data=data)

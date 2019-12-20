@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d7fdb78e-4109-4800-b1a8-75e6523ce065" name="Default Changelist" comment="采用orm框架">
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/restfulAPI.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/restfulAPI.iml" afterDir="false" />
+    <list default="true" id="d7fdb78e-4109-4800-b1a8-75e6523ce065" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/forms/commit_form.py" beforeDir="false" afterPath="$PROJECT_DIR$/forms/commit_form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/web/commit_views.py" beforeDir="false" afterPath="$PROJECT_DIR$/web/commit_views.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -275,7 +270,7 @@
       <workItem from="1557710077160" duration="4494000" />
       <workItem from="1558321601092" duration="5645000" />
       <workItem from="1576827805119" duration="4231000" />
-      <workItem from="1576833151750" duration="292000" />
+      <workItem from="1576833151750" duration="1977000" />
     </task>
     <task id="LOCAL-00001" summary="同一git用户下的备份文件名应该加上项目名以区分">
       <created>1555903138703</created>
@@ -319,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1558341820510</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="在commit_views中添加start_time和end_time，可以通过时间段获取相应的commit">
+      <created>1576833574312</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576833574312</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -343,7 +345,8 @@
     <MESSAGE value="修复redis多余后缀名的Bug" />
     <MESSAGE value="弃用checkout" />
     <MESSAGE value="采用orm框架" />
-    <option name="LAST_COMMIT_MESSAGE" value="采用orm框架" />
+    <MESSAGE value="在commit_views中添加start_time和end_time，可以通过时间段获取相应的commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="在commit_views中添加start_time和end_time，可以通过时间段获取相应的commit" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/restfulAPI$main.coverage" NAME="main Coverage Results" MODIFIED="1576832711884" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />

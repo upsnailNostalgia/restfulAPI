@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d7fdb78e-4109-4800-b1a8-75e6523ce065" name="Default Changelist" comment="采用orm框架" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/restfulAPI$get_2.coverage" NAME="get_2 Coverage Results" MODIFIED="1548313071809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/restfulAPI$get_xml.coverage" NAME="get_xml Coverage Results" MODIFIED="1548310340671" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/restfulAPI$get_3.coverage" NAME="get_3 Coverage Results" MODIFIED="1548313107822" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/restfulAPI$pipreqs.coverage" NAME="pipreqs Coverage Results" MODIFIED="1557712309493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="D:/Work/Anaconda/Lib/site-packages/pipreqs" />
+    <SUITE FILE_PATH="coverage/restfulAPI$ffffff.coverage" NAME="ffffff Coverage Results" MODIFIED="1555423369610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
+    <SUITE FILE_PATH="coverage/restfulAPI$get_repository.coverage" NAME="get_repository Coverage Results" MODIFIED="1552224392500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/restfulAPI$get_1.coverage" NAME="get_1 Coverage Results" MODIFIED="1548260434741" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/spider" />
+    <SUITE FILE_PATH="coverage/restfulAPI$code_views.coverage" NAME="code_views Coverage Results" MODIFIED="1557495137395" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/web" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>CONNECT&quot; request</find>
+      <find>description</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1VEoneXVHmH02FpNksgFszRHAtL" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\ALIENWARE\PycharmProjects\fdse\restfulAPI\spider" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.pipreqs">
+    <configuration name="code_views" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="restfulAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/code_views.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ffffff" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="restfulAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/web" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/web/ffffff.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_3" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="restfulAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/get_3.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="get_repository" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="restfulAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/spider" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/spider/get_repository.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pipreqs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="restfulAPI" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="D:/Work/Anaconda/Lib/site-packages/pipreqs" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="D:/Work/Anaconda/Lib/site-packages/pipreqs/pipreqs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.pipreqs" />
+        <item itemvalue="Python.code_views" />
+        <item itemvalue="Python.ffffff" />
+        <item itemvalue="Python.get_repository" />
+        <item itemvalue="Python.get_3" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d7fdb78e-4109-4800-b1a8-75e6523ce065" name="Default Changelist" comment="" />
+      <created>1544447884490</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1544447884490</updated>
+      <workItem from="1544447885840" duration="838000" />
+      <workItem from="1544531543007" duration="7000" />
+      <workItem from="1544531579177" duration="2420000" />
+      <workItem from="1545098213875" duration="147000" />
+      <workItem from="1545727509576" duration="1249000" />
+      <workItem from="1545803812254" duration="1853000" />
+      <workItem from="1546430819272" duration="344000" />
+      <workItem from="1546501217666" duration="1423000" />
+      <workItem from="1546567107834" duration="2800000" />
+      <workItem from="1547002029399" duration="3696000" />
+      <workItem from="1547106950773" duration="606000" />
+      <workItem from="1547196265368" duration="967000" />
+      <workItem from="1547397869677" duration="1632000" />
+      <workItem from="1547448744493" duration="2490000" />
+      <workItem from="1547520886558" duration="599000" />
+      <workItem from="1548166579904" duration="3081000" />
+      <workItem from="1548171001031" duration="21690000" />
+      <workItem from="1548309769323" duration="10433000" />
+      <workItem from="1548402219203" duration="12000" />
+      <workItem from="1551793009780" duration="96000" />
+      <workItem from="1551793233603" duration="5000" />
+      <workItem from="1551873016626" duration="18407000" />
+      <workItem from="1552012175753" duration="6482000" />
+      <workItem from="1552222807211" duration="1238000" />
+      <workItem from="1552224392765" duration="46000" />
+      <workItem from="1552270056098" duration="2463000" />
+      <workItem from="1552485985779" duration="10000" />
+      <workItem from="1552492031581" duration="110000" />
+      <workItem from="1552919330565" duration="958000" />
+      <workItem from="1552975792928" duration="1280000" />
+      <workItem from="1553504356625" duration="3215000" />
+      <workItem from="1553649813509" duration="1601000" />
+      <workItem from="1553685818182" duration="2128000" />
+      <workItem from="1553826445694" duration="612000" />
+      <workItem from="1554254265064" duration="790000" />
+      <workItem from="1554379263375" duration="623000" />
+      <workItem from="1554685837369" duration="6317000" />
+      <workItem from="1554821187322" duration="9471000" />
+      <workItem from="1554949740082" duration="1236000" />
+      <workItem from="1554974277035" duration="728000" />
+      <workItem from="1555328939356" duration="674000" />
+      <workItem from="1555380488572" duration="11239000" />
+      <workItem from="1555551194469" duration="4344000" />
+      <workItem from="1555637633356" duration="1572000" />
+      <workItem from="1555900058564" duration="7599000" />
+      <workItem from="1555982703685" duration="5700000" />
+      <workItem from="1556435359609" duration="2319000" />
+      <workItem from="1556499920048" duration="1211000" />
+      <workItem from="1556545195366" duration="636000" />
+      <workItem from="1557038259225" duration="1551000" />
+      <workItem from="1557057932669" duration="43000" />
+      <workItem from="1557058185162" duration="5493000" />
+      <workItem from="1557192435498" duration="4825000" />
+      <workItem from="1557244275627" duration="3168000" />
+      <workItem from="1557279896460" duration="2600000" />
+      <workItem from="1557365078909" duration="11374000" />
+      <workItem from="1557492552216" duration="6493000" />
+      <workItem from="1557657037707" duration="3017000" />
+      <workItem from="1557710077160" duration="4494000" />
+      <workItem from="1558321601092" duration="5645000" />
+      <workItem from="1576827805119" duration="567000" />
+    </task>
+    <task id="LOCAL-00001" summary="同一git用户下的备份文件名应该加上项目名以区分">
+      <created>1555903138703</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1555903138703</updated>
+    </task>
+    <task id="LOCAL-00002" summary="修复redis多余后缀名的Bug">
+      <created>1555924111843</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1555924111843</updated>
+    </task>
+    <task id="LOCAL-00003" summary="弃用checkout">
+      <created>1555983059316</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1555983059316</updated>
+    </task>
+    <task id="LOCAL-00004" summary="采用orm框架">
+      <created>1558340677640</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1558340677640</updated>
+    </task>
+    <task id="LOCAL-00005" summary="采用orm框架">
+      <created>1558340996457</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1558340996457</updated>
+    </task>
+    <task id="LOCAL-00006" summary="采用orm框架">
+      <created>1558341820510</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1558341820510</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="同一git用户下的备份文件名应该加上项目名以区分" />
+    <MESSAGE value="修复redis多余后缀名的Bug" />
+    <MESSAGE value="弃用checkout" />
+    <MESSAGE value="采用orm框架" />
+    <option name="LAST_COMMIT_MESSAGE" value="采用orm框架" />
+  </component>
+</project>

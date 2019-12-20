@@ -1,0 +1,15 @@
+/home/fdse/data/repo/github/gmallard/packed-decimal
+/home/fdse/data/repo/github/markfenton/albatross
+/home/fdse/data/repo/github/capbunbogdan/tigus
+/home/fdse/data/repo/github/pmckinstry/gant-sample
+/home/fdse/data/repo/github/alexandrandronescu/tigus
+/home/fdse/data/repo/github/dgioga/tigus
+/home/fdse/data/repo/github/northern-bites/tool
+/home/fdse/data/repo/github/rictic/code_swarm
+/home/fdse/data/repo/github/mrdon/maven-itblast-plugin
+/home/fdse/data/repo/github/toddlipcon/cassandra
+/home/fdse/data/repo/github/elitau/mett_media_producer
+/home/fdse/data/repo/github/tucson-jug/git-together-examples
+/home/fdse/data/repo/github/bo198214/4dbb
+/home/fdse/data/repo/github/gdey/ucsd-ext-java----class
+/home/fdse/data/repo/github/talios/timetrackr

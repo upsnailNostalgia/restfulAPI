@@ -1,4 +1,4 @@
-from wtforms import Form, IntegerField, StringField, BooleanField
+from wtforms import Form, IntegerField, StringField, BooleanField, TimeField
 from wtforms.validators import NumberRange, UUID, DataRequired, InputRequired, Regexp
 
 
@@ -8,8 +8,8 @@ class CommitForm(Form):
     per_page = IntegerField(validators=[NumberRange(min=1, max=100)], default=50)
     is_whole = BooleanField(default=False)
     developer = StringField(default=None)
-    start_time = StringField(default='1970-1-1 00:00:00')
-    end_time = StringField(default='2030-1-1 00:00:00')
+    start_time = TimeField(default='1970-1-1 00:00:00')
+    end_time = TimeField(default='2030-1-1 00:00:00')
 
 
 class CommitIdForm(Form):

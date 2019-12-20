@@ -1,6 +1,7 @@
 #encoding:utf-8
 
-from flask import jsonify, request
+from flask import jsonify, request, Flask
+from flask_cors import CORS
 
 from db.model import CommitModel
 from forms.commit_form import CommitForm, CheckoutForm, CheckoutMasterForm, CommitIdForm, DiffForm
@@ -23,7 +24,6 @@ def send_msg(host, recv, msg):
 
 @web.route('/commit', methods=['GET'])
 def get_commit():
-
     form = CommitForm(request.args)
     if form.validate():
         repo_id = form.repo_id.data
@@ -31,21 +31,23 @@ def get_commit():
         per_page = form.per_page.data
         is_whole = form.is_whole.data
         developer = form.developer.data
+        start_time = form.start_time
+        end_time = form.end_time
         try:
             session = db_connect(DB)
             if developer is '':
                 if is_whole is True:
-                    query_ret = session.query(CommitModel).filter(CommitModel.repo_id == repo_id).\
+                    query_ret = session.query(CommitModel).filter(CommitModel.repo_id == repo_id, CommitModel.commit_time >= start_time, CommitModel.commit_time <= end_time).\
                         order_by(CommitModel.commit_time.desc()).all()
                 else:
-                    query_ret = session.query(CommitModel).filter(CommitModel.repo_id == repo_id).\
+                    query_ret = session.query(CommitModel).filter(CommitModel.repo_id == repo_id, CommitModel.commit_time >= start_time, CommitModel.commit_time <= end_time).\
                         order_by(CommitModel.commit_time.desc()).limit(per_page).offset((page - 1) * per_page)
             else:
                 if repo_id is '':
-                    query_ret = session.query(CommitModel).filter(CommitModel.developer == developer).\
+                    query_ret = session.query(CommitModel).filter(CommitModel.developer == developer, CommitModel.commit_time >= start_time, CommitModel.commit_time <= end_time).\
                         order_by(CommitModel.commit_time.desc()).all()
                 else:
-                    query_ret = session.query(CommitModel).filter(CommitModel.developer == developer, CommitModel.repo_id == repo_id).\
+                    query_ret = session.query(CommitModel).filter(CommitModel.developer == developer, CommitModel.repo_id == repo_id, CommitModel.commit_time >= start_time, CommitModel.commit_time <= end_time).\
                         order_by(CommitModel.commit_time.desc()).all()
 
             data = []

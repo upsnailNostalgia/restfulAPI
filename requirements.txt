@@ -2,7 +2,7 @@ SQLAlchemy==1.1.9
 redis==2.10.6
 Flask==0.12.2
 typing==3.6.2
-Flask_Cors==3.0.2
+Flask_Cors==3.0.9
 kafka_python==1.4.3
 WTForms==2.2.1
 gevent==1.2.1
